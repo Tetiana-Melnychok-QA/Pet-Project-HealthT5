@@ -58,8 +58,8 @@ To run the tests using Selenium IDE, follow these steps:
     - Execute the tests as per your requirement.
 
 ## Team Members
-- Filipieva Maryna
 - Melnychok Tetyana
+- - Filipieva Maryna
 - Zhadan Anton
 
 ## Test Report Summary
@@ -82,8 +82,8 @@ We tested usability and UI across various devices to ensure a seamless user expe
 All test case details, results, and additional documentation can be found in the corresponding folders of this repository.
 
 ## Contacts
-- Filipieva Marina — marynafilipieva.qa@gmail.com
 - Melnychok Tetiana — tetiana.melnychok.qa@gmail.com
+- Filipieva Marina — marynafilipieva.qa@gmail.com
 - Zhadan Anton — zhadananton97@gmail.com
 
 ## License
