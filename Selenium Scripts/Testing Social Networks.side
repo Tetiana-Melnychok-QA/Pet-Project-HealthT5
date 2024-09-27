@@ -1,0 +1,548 @@
+{
+  "id": "fbb8cdf4-f371-4f1b-b8b5-33b05ab7db57",
+  "version": "2.0",
+  "name": "HealthT5. Social Networks",
+  "url": "https://healtht5.com/",
+  "tests": [{
+    "id": "41e156bc-a6c2-4c4d-9eb8-e5f45754564e",
+    "name": "Redirecting to official Instagram page(Positive)",
+    "commands": [{
+      "id": "b274edc9-33c2-4b8d-981c-4f01bd4bf7e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "685d7353-c773-47ca-8999-8a52222f3263",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "855bd503-c3b8-44a8-9bf5-378185e2d2c2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.socials__item-inst svg",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "291fd393-62e4-4120-9eac-8394ddbf6e6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.socials__item-inst svg",
+      "targets": [
+        ["css=.socials__item-inst svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1682",
+      "windowTimeout": 2000
+    }, {
+      "id": "f2d62a93-15b2-43db-a002-ee40fe03ef48",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7320e77-1988-486d-8a9f-988ae2bb05df",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1682}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38b1ff61-570b-41e9-9f28-abf47f95619d",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b458e8a0-26b2-498e-b5f0-d4591fddc2b2",
+    "name": "Redirecting to official YouTube page(Positive)",
+    "commands": [{
+      "id": "6b3e59ef-c8e0-44fa-9297-0e870559321a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05a5f51e-2993-4c85-b68b-df4c8d2d4fde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15c40182-2b6d-4ce3-8227-6ad15585dcad",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.socials__item-yt svg",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "c51fff84-4f6a-432c-a39d-f4f0d16b576b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.socials__item-yt svg",
+      "targets": [
+        ["css=.socials__item-inst svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1682",
+      "windowTimeout": 2000
+    }, {
+      "id": "e9aa092c-ebe1-4a80-8a16-f0ee3e2870ad",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f756dd-c433-4062-97c5-1e87287e5f52",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1682}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ee660dc-f8bc-4f22-8555-f4c8d264eb0e",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e8404dec-ccb7-41ae-ab0e-166ecd26c397",
+    "name": "Redirecting to official TikTok page(Positive)",
+    "commands": [{
+      "id": "3cda085b-c8a3-4f41-bd21-5b5f8a6c10a4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afff0562-06c9-4723-9420-d3a1b732f771",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a21384f-b8d8-42d3-bf92-acd1934d191c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "//span[@data-link=\"https://www.tiktok.com/@healtht5\"]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "271d8364-37d4-4d71-938c-9000f802df83",
+      "comment": "",
+      "command": "click",
+      "target": "//span[@data-link=\"https://www.tiktok.com/@healtht5\"]",
+      "targets": [
+        ["css=.socials__item-inst svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1682",
+      "windowTimeout": 2000
+    }, {
+      "id": "c604e62a-b6fd-4e65-8047-25a34d9893c2",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b70aa97-e3bf-40de-9b44-0f044e9bf798",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1682}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab1bd8ec-7d56-4218-9f26-d1740ed129cf",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "98e4a704-8fd9-49ce-bbaa-f757ddf35e9a",
+    "name": "Redirecting to official Pinterest page(Positive)",
+    "commands": [{
+      "id": "dc545ec4-1914-4a2f-9365-67b1726b61b3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a528c9c-114b-4f29-950f-527bcaf26480",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41df5339-83cf-471e-91e9-2eb2dc5f2041",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.socials__item-pi svg",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "ecd82fec-a1a9-4ea9-b661-9104377598d5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.socials__item-pi svg",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e56b0c48-b3c5-4740-9752-42476c483cad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.socials__item-pi svg",
+      "targets": [
+        ["css=.socials__item-inst svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1682",
+      "windowTimeout": 2000
+    }, {
+      "id": "bfbb7e1a-71ad-4761-bee4-0f949eec5be3",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29912151-617b-4ef8-bc8f-7c48432971ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1682}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a22225c-21a9-4fad-b871-775c9d33753b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "!originalWindow",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "42d75e2c-7d78-43b0-8dc8-b3638ccec06c",
+    "name": "Share the article to FaceBook(Negative)",
+    "commands": [{
+      "id": "20e1f70a-f5ad-4ed0-b916-6eaafe416c69",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "935466ce-9a78-4725-9293-38a7cc624dc0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "646x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e17346c1-af31-410b-86a8-2c84b4989373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(3) .attachment-wescle_loop_thumbnail_default",
+      "targets": [
+        ["css=.col:nth-child(3) .attachment-wescle_loop_thumbnail_default", "css:finder"],
+        ["xpath=//img[@alt='Як сформувати нові корисні звички у 2024 році']", "xpath:img"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc84fc4c-b358-4965-b934-b6bbedfd2220",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.share__list > li:nth-child(1) svg",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e4cda68e-f479-40a1-81f4-7d06e670002c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.share__list > li:nth-child(1) svg",
+      "targets": [
+        ["css=.share__list > li:nth-child(1) svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8253",
+      "windowTimeout": 2000
+    }, {
+      "id": "5ebed6be-22a0-40f5-bc0b-8820a767bb09",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8253}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eceae0bf-190b-42dc-9eab-b28be2f115c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_585r",
+      "targets": [
+        ["css=.\\_585r", "css:finder"],
+        ["xpath=//div[@id='u_0_4_ym']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d30bd8a-a9ba-492f-bdbe-7078b8cc75c1",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//div[contains(@class, '_585r') and contains(@class, '_50f4') and text()=\"Войдите, чтобы продолжить.\"]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3c65f3ad-3efb-44ed-969b-60fb528c944c",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[contains(@class, '_585r') and contains(@class, '_50f4') and text()=\"Войдите, чтобы продолжить.\"]",
+      "targets": [],
+      "value": "Войдите, чтобы продолжить."
+    }]
+  }, {
+    "id": "f260044e-eca5-4492-9279-27f26e134e91",
+    "name": "Share the article to Linkedin(Positive)",
+    "commands": [{
+      "id": "7b01f77b-d5ca-46a7-a44f-3bc362310ded",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0ec444a-fc6d-4457-b11b-543081ec8ee6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "646x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6a89a64-2c89-4144-b41f-a4fe9aff0148",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(6) .attachment-wescle_loop_thumbnail_default",
+      "targets": [
+        ["css=.col:nth-child(6) .attachment-wescle_loop_thumbnail_default", "css:finder"],
+        ["xpath=//img[@alt='Здоровий сон – способи засинання']", "xpath:img"],
+        ["xpath=//div[6]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d868ab1-a5c1-4aac-8e54-ded16dba1355",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) svg",
+      "targets": [
+        ["css=li:nth-child(5) svg", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7236",
+      "windowTimeout": 50000
+    }, {
+      "id": "9c7da6c3-2c8e-4b3a-abc1-75c91c8cb6ba",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7236}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6fa5eab-7501-4009-be47-22e2060fb5bc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//div[contains(@class, 'update-components-mini-update-v2') and contains(@class, 'share-creation-state__preview-container--as-box') and contains(@class, 'feed-shared-update-v2--minimal-padding')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "360ac4f8-4b2d-4578-bceb-2b0d18aa8e3a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//*[@id=\"ember247\"]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a59ac76d-96af-44e5-afc4-c72f742b9e32",
+    "name": "share the article to Telegram(Positive)",
+    "commands": [{
+      "id": "21f54593-a5db-41d9-9ca3-776b0a12f204",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d469cbb1-f126-4b49-9419-07898f54a95c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "646x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2dc7790-5413-4745-9f6d-95f0b986efb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(6) > .recommended__post",
+      "targets": [
+        ["css=.col:nth-child(6) > .recommended__post", "css:finder"],
+        ["xpath=//div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf3e49d-710c-4d51-840a-0dab4c129f40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(6) .title",
+      "targets": [
+        ["css=.col:nth-child(6) .title", "css:finder"],
+        ["xpath=//div[6]/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d0c5c8-4b8d-4315-8ddf-d94043997230",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) path",
+      "targets": [
+        ["css=li:nth-child(4) path", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7732",
+      "windowTimeout": 2000
+    }, {
+      "id": "cb14bcb0-e369-4840-a96f-92a607169593",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "5d3755f2-21b1-40ae-8137-53471013bf47",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "",
+      "targets": [],
+      "value": "allHandles"
+    }, {
+      "id": "9d4b1ade-7bd1-4fc6-8005-07c513c2ac53",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "08d284a6-e638-4375-a93b-65cee217c521",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7732}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc947cae-a4a1-471b-95d8-783c1fe6d264",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return window.location.href;",
+      "targets": [],
+      "value": "currentUrl"
+    }, {
+      "id": "7ca08d4e-fe35-4666-9e5f-703f4971c28b",
+      "comment": "",
+      "command": "assert",
+      "target": "link=https://telegram.me/share/url?url=https%3A%2F%2Fhealtht5.com%2Fzdorovyy-son-sposoby-zasynannya%2F&text=%D0%97%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D0%B9+%D1%81%D0%BE%D0%BD+%26%238211%3B+%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8+%D0%B7%D0%B0%D1%81%D0%B8%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F",
+      "targets": [],
+      "value": "null"
+    }]
+  }, {
+    "id": "51cf73b8-a79c-477d-bb33-7ed0186dfd9d",
+    "name": "Redirecting to Instagram publication from the article page(Negative)",
+    "commands": [{
+      "id": "35c251e3-ef23-4720-80bf-69e7e4bd5164",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cf88548-6d47-4bfe-937b-62b908ff2c3a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb540c5e-c8b1-46d2-b037-94c69c1466fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) > .recommended__post .title",
+      "targets": [
+        ["css=.col:nth-child(1) > .recommended__post .title", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1742922d-56bb-4f77-96d4-9ca79610de22",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "3731949c-b423-4281-b03a-8d11e0774adb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Header",
+      "targets": [
+        ["css=.Header", "css:finder"],
+        ["xpath=//html[@id='facebook']/body/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1432",
+      "windowTimeout": 2000
+    }, {
+      "id": "2a4fd844-1d69-414e-892a-40f8c5101752",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1432}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c98926dd-bcae-495d-91d2-35bf52a5e823",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["41e156bc-a6c2-4c4d-9eb8-e5f45754564e"]
+  }],
+  "urls": ["https://healtht5.com/"],
+  "plugins": []
+}

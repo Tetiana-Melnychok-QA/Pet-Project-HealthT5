@@ -1,0 +1,649 @@
+{
+  "id": "1dee7299-fb81-4a53-88d8-051b36c213ca",
+  "version": "2.0",
+  "name": "Pet-Project. Testing Commeting",
+  "url": "https://healtht5.com/zadyshka-chotyry-prychyny-ta-yikh-vyrishennya/",
+  "tests": [{
+    "id": "4fd98a8a-7c18-477b-959c-7ec7fc3533f1",
+    "name": "Verify sending a comment with all empty fields",
+    "commands": [{
+      "id": "bda8b285-8e7c-4a21-8aef-a066d6c30392",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "337f4640-b03d-42a7-b614-7c6f7c1ea918",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3b86ea7-77d2-47f1-b653-b3af9e412d51",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92fa61a6-5190-45ed-9f6d-647cc7c41e6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1308d115-56b0-4f7e-ad06-3a55e7555e73",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "40d64a75-e34a-4ba3-952c-94ea2395cb1e",
+    "name": "Verify that a comment exceeds the allowed number of characters",
+    "commands": [{
+      "id": "327df7bf-c79f-41ae-899a-a3d86bd86288",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "170c54e3-55f8-4252-91bb-49b593d9974c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a738f189-1d01-4d18-a50f-351bdc525c77",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4703f231-d2e0-4b65-b608-325101814d7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Доброго дня! Дякую за інформативну статтю про здоров'я. Це надзвичайно важлива тема, особливо в наш час, коли багато людей стикаються з різними викликами щодо підтримки здорового способу життя. Хочу поділитися деякими думками і спостереженнями, які, можливо, допоможуть іншим читачам.\\n\\nЗдоров'я – це не лише відсутність хвороб, але й стан фізичного, психічного та соціального благополуччя. Це поняття дуже широке і включає багато аспектів, таких як правильне харчування, фізична активність, емоційний баланс, соціальні зв'язки і навіть ставлення до навколишнього середовища. Кожен з цих факторів відіграє важливу роль у підтримці загального стану здоров'я.\\n\\nПочну з харчування. Здорове харчування – це основа нашого благополуччя. Балансоване харчування, яке включає всі необхідні поживні речовини, вітаміни та мінерали, допомагає підтримувати оптимальне функціонування організму. Дуже важливо звертати увагу на різноманітність раціону і включати до нього фрукти, овочі, цільнозернові продукти, білкові джерела та здорові жири. Також варто уникати надмірного споживання цукру, солі та насичених жирів, що можуть негативно впливати на наше здоров'я.\\n\\nФізична активність – ще один ключовий аспект здорового способу життя. Регулярні фізичні вправи сприяють підтримці здоров'я серця, легенів, опорно-рухового апарату, а також допомагають контролювати вагу, покращувати настрій і знижувати рівень стресу. Не обов'язково бути професійним спортсменом – достатньо просто бути активним у повсякденному житті: ходити пішки, кататися на велосипеді, робити зарядку або займатися йогой. Важливо знайти те, що приносить вам задоволення, і робити це регулярно.\\n\\nЕмоційний та психічний стан також має велике значення. Зараз, коли стрес став невід'ємною частиною нашого життя, важливо вміти керувати своїми емоціями і знайти способи розслаблення. Медитація, йога, читання, прогулянки на природі – все це допомагає знижувати рівень стресу і підтримувати внутрішню рівновагу. Також важливо не нехтувати спілкуванням з близькими людьми, адже соціальні зв'язки підтримують наше психічне здоров'я і допомагають справлятися з життєвими труднощами.\\n\\nНе можна не згадати про важливість якісного сну. Сон – це час, коли наш організм відновлюється і набирається сил. Недостатність сну може призводити до різних проблем зі здоров'ям, таких як зниження імунітету, підвищений ризик розвитку хронічних захворювань, проблеми з концентрацією та пам'яттю. Тому важливо дотримуватися регулярного режиму сну і створювати умови для якісного відпочинку: комфортний матрац, тиша, темрява в спальні.\\n\\nЗдоровий спосіб життя також включає в себе увагу до навколишнього середовища. Чисте повітря, чиста вода, натуральні продукти – все це сприяє нашому здоров'ю. Варто замислитися над тим, як наші повсякденні звички впливають на природу, і робити вибір на користь екологічних та сталих рішень. Наприклад, можна скоротити використання пластику, віддавати перевагу місцевим і сезонним продуктам, підтримувати ініціативи щодо збереження природи.\\n\\nЗвичайно, важливо пам'ятати, що здоров'я – це індивідуальна справа, і кожен з нас повинен знайти свій шлях до здорового способу життя. Не існує єдиного рецепту для всіх, але головне – слухати свій організм, звертати увагу на його сигнали і робити все можливе, щоб підтримувати його у гарному стані.\\n\\nСподіваюся, що ці думки будуть корисними для інших читачів, і дякую ще раз за чудову статтю. Важливо продовжувати піднімати такі теми і ділитися інформацією, яка може допомогти людям покращити своє життя і здоров'я."
+    }, {
+      "id": "e6097356-97bf-4f01-9cb2-569ec89f152f",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901970fb-52d0-4edb-9463-607164476fea",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "TestName"
+    }, {
+      "id": "569e467a-9443-4978-b833-a001578aedec",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0835bb9-2dfb-42e6-a4f3-50d93204b3c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "testmail@gmail.com"
+    }, {
+      "id": "38365f0d-674d-4f5d-99c8-c448138bc8be",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1577d104-8520-4f64-aeb3-ed347a9c8b52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=« Назад",
+      "targets": [
+        ["linkText=« Назад", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'« Назад')]", "xpath:link"],
+        ["xpath=//body[@id='error-page']/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.back()')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'« Назад')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "212caa9e-fe2d-44ab-830c-c6584b1bbbfa",
+    "name": "Verify the writing of a comment with an empty Comment field",
+    "commands": [{
+      "id": "aabe89d8-0cd0-437e-9a00-b604de5cc52a",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e246cadb-5f95-443a-8ccb-49f9d835cd38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cca07bed-4f1f-4e46-ab92-7a1899f2dab3",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b661274-d160-4de9-8930-5e7ae79293bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "TestName"
+    }, {
+      "id": "7687bb8a-c3ed-467b-9484-310a2f2f6fae",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc81adee-f206-41a7-b44f-044883e964c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "testmail@gmail.com"
+    }, {
+      "id": "a29ca8fb-9756-4ebc-811f-60a8a75e3efa",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b12349-8a5a-4071-9832-9a896bd9f959",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79848964-a137-423b-abe5-dd90cd79e244",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b744ef14-65be-495e-b9e8-0ad1b0a84638",
+    "name": "Verify sending the same comments",
+    "commands": [{
+      "id": "03a0e6ba-4773-4abe-a370-edae0d6ffbbd",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f220571-8d93-4e0c-a8f3-871cce07649d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49ff4a42-bbaf-42c2-ac6b-922f4a3cf87f",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "217210ec-7bc5-4a32-bd5c-d39549e9a115",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Гарна дієта, все добре розписано та продукти легко дістати."
+    }, {
+      "id": "c2ad32b0-c359-41a1-b99c-87d7b82afef2",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0c1da0-7300-4eaf-b0a4-58f6e20514e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "TestName"
+    }, {
+      "id": "ccfed13c-73a2-4ff6-b867-69ef1925c0e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5b542aa-0230-408b-b71b-97d4e40a09d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "testmail@gmail.com"
+    }, {
+      "id": "a7d9f7bd-6314-4bea-8415-e3948d040cb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bcf9bf8-9dbe-4078-8c06-77af200b7b8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=« Назад",
+      "targets": [
+        ["linkText=« Назад", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'« Назад')]", "xpath:link"],
+        ["xpath=//body[@id='error-page']/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:history.back()')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'« Назад')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7f1cf9ba-9517-4bb6-b808-c4ec54ad61d6",
+    "name": "Verify that the comment was sent successfully",
+    "commands": [{
+      "id": "9dc3bdda-9700-4fcf-a329-e6743b8be4ab",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9ae3920-b9a6-4254-a34d-0067d5ea6251",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73529083-08a7-4e47-bec4-0551707de80f",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad92d153-2e7b-4421-8ead-05377d433acb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,58)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88264d50-af8e-4cbf-95a2-a30e8076837e",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Дієта добре розписана, але до списку продуктів треба додати моркву, вона також добра для очей."
+    }, {
+      "id": "30257fd5-58d4-426d-b7a1-be3dbe7d2e6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6555cb03-56bc-4552-aeb2-326781a56269",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "TestName"
+    }, {
+      "id": "86bb0c47-4ccc-43ac-aed4-0bb4c09c9ee8",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9cb5498-4e3a-4b90-b35d-502d1d0e4f8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "testmail@gmail.com"
+    }]
+  }, {
+    "id": "d6752282-691f-4be8-8aef-b758e8faa0a0",
+    "name": "Verify that comment area is active",
+    "commands": [{
+      "id": "fca8dbcf-5135-46a6-b794-03afc2b9a572",
+      "comment": "",
+      "command": "open",
+      "target": "https://healtht5.com/zadyshka-chotyry-prychyny-ta-yikh-vyrishennya/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3b40865-9e4c-48be-97c7-34da5b390df8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "581ea839-4aba-49ef-8050-92575f353324",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4330337-dab8-4e38-ab09-71741ae9b47d",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bc5119a-7434-4b94-b128-5a8df1405b07",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4aeb87-a427-476a-afc8-0e03ab8c6aa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79347418-b103-4dd6-9b93-105122e8c9f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment",
+      "targets": [
+        ["id=comment", "id"],
+        ["name=comment", "name"],
+        ["css=#comment", "css:finder"],
+        ["xpath=//textarea[@id='comment']", "xpath:attributes"],
+        ["xpath=//form[@id='commentform']/fieldset/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a2c26760-4e5e-4fcb-87a9-65bac07d790d",
+    "name": "Negative tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4fd98a8a-7c18-477b-959c-7ec7fc3533f1"]
+  }, {
+    "id": "5383d0b6-b0d3-431a-b1e0-07a24fec5d28",
+    "name": "Positive tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b744ef14-65be-495e-b9e8-0ad1b0a84638", "d6752282-691f-4be8-8aef-b758e8faa0a0", "7f1cf9ba-9517-4bb6-b808-c4ec54ad61d6"]
+  }],
+  "urls": ["https://healtht5.com/perevahy-dhk-dlya-zdorovya-mozku-ta-ochey/", "https://healtht5.com/yak-perekusy-vplyvayut%CA%B9-na-zdorovya-ta-kontrol%CA%B9-vahy/", "https://healtht5.com/zadyshka-chotyry-prychyny-ta-yikh-vyrishennya/"],
+  "plugins": []
+}

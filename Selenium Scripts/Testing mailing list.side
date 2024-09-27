@@ -1,0 +1,371 @@
+{
+  "id": "85a0012e-ebf4-41a7-90f9-39bfa5591d8b",
+  "version": "2.0",
+  "name": "Testing mailing list",
+  "url": "https://healtht5.com",
+  "tests": [{
+    "id": "c5327569-9d3b-413a-bc2a-51269fea3505",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "93fc6bc3-28d1-491f-8a24-12ba10c49b58",
+    "name": "Verify the entry of a valid email with less than 254 characters",
+    "commands": [{
+      "id": "4038e788-635f-408f-b0cb-9d0ac68eeb69",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d501c9c-ca50-499f-ae1a-7de1b00ed281",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1cba8205-9be1-4ec9-8fa2-7ee378a27225",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e908828b-0660-40ef-9fad-6de477e97bff",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "a.really.long.email.address.that.is.used.for.testing.purposes@subdomain.example.com"
+    }, {
+      "id": "78226b3c-dbc3-4cb3-a7bb-9b6c1190da1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac6d4385-97ff-47f2-ae9c-3d8cf4195087",
+    "name": "Verify the entry of a valid email with an underscore in the local part",
+    "commands": [{
+      "id": "fb872dcd-a064-472a-8ca0-2576381896bc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e9f38a9-21a6-4c7a-900e-ad9ff85082e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd312148-773a-4655-ba39-7690b01172d1",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d8b38c6-2005-4cc2-a8d2-359be41b5141",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "lima_berg27@gmail.com"
+    }, {
+      "id": "8f2f82da-fa68-4520-8f54-f175ca4f0eef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b20e067e-4d9b-4436-a852-2bd83891c0d3",
+    "name": "Verify the entry of an email without the “@” symbol",
+    "commands": [{
+      "id": "d00aa13d-4819-47ff-9692-6654483816ed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fdb2944-d376-477f-85bc-3a71e89a109d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31aae55c-0494-450b-b9fc-c2e982ef9a9c",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e0095a-97fd-46f7-88df-f627519edb48",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "userexample.com"
+    }, {
+      "id": "bb217eba-9c24-4b6b-b881-25474066c14f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9486c776-6914-44c4-9fb9-e8578ef6e76f",
+    "name": "Verify the entry of a valid email with a plus sign in the local part",
+    "commands": [{
+      "id": "295074d3-cf64-4127-b9d4-fd13a8021c7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a194ef75-d6e7-4bce-8d84-083375e60cde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792dc440-1469-4c90-ae36-435f0b26c0b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad1527ce-9c78-415c-8e4e-f5d08b6bf093",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "my+name@example.com"
+    }, {
+      "id": "7ba53d0d-f6c2-4407-a4fe-99b4153ef178",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bffce402-cda6-4808-8031-cb7824752d95",
+    "name": "Verify the entry of an email without domain",
+    "commands": [{
+      "id": "7d2dbb27-d093-4f1b-8003-230975af9a4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec901814-0029-4e1c-9575-9fdb57361d8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9045586d-b510-4890-89de-16ea80b85f57",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1770)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c39e47-f507-4af6-b103-db91c67a5f6f",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5d849a7-c685-43fd-a282-dc42d96ccb6c",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "“username@ ”"
+    }, {
+      "id": "d44761d4-ee5a-4ee1-9af3-64183bc30cdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "391ee1e7-9dc7-4db0-9ed3-d3f994aa1673",
+    "name": "Verify the entry of an email with a space in the local part",
+    "commands": [{
+      "id": "8f602d0d-77a6-48f1-912c-dd061a3ff89b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2109a19f-aff4-4d43-923c-68d574eae6e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e73120a-d784-49ad-aa4f-654f3a09bb27",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1820)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9562aaa2-23dd-4073-baaf-a2ec05ef3283",
+      "comment": "",
+      "command": "click",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6267740-232a-4f19-a079-1659a050c9f6",
+      "comment": "",
+      "command": "type",
+      "target": "name=your-email",
+      "targets": [
+        ["name=your-email", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='your-email']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "user name@example.com"
+    }, {
+      "id": "649b51ae-bb07-47d7-b10e-9031a39e9db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Підписатися']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f50-o1']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3fc4c2d3-9635-416d-ab21-f4cc72bf2194",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5327569-9d3b-413a-bc2a-51269fea3505"]
+  }],
+  "urls": ["https://healtht5.com/"],
+  "plugins": []
+}

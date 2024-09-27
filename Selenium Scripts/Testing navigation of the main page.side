@@ -1,0 +1,151 @@
+{
+  "id": "f0eee6f5-de55-40f0-8e56-0ac6b0dd87f8",
+  "version": "2.0",
+  "name": "Testing navigation of the main page",
+  "url": "https://healtht5.com",
+  "tests": [{
+    "id": "0ea04599-a024-46f4-9316-0f40cea8db0a",
+    "name": "Testing the main menu item “Секрети молодості”",
+    "commands": [{
+      "id": "e62a4e41-8fd3-4469-b1bc-bdf13156c5c4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "482aa6e0-86ba-4545-a912-85a50d1866ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79ab5b94-f4f6-4df4-a86f-6a37d1e213e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Секрети молодості",
+      "targets": [
+        ["linkText=Секрети молодості", "linkText"],
+        ["css=#menu-item-261 > .navigation__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Секрети молодості')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-261']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://healtht5.com/sekrety-molodosti/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Секрети молодості')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ccad9ed0-c1da-41ee-843a-30ef00b182ce",
+    "name": "Testing the color theme change",
+    "commands": [{
+      "id": "1c6a63fd-e1fe-49d9-ba08-1a76e537c7f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12a08d32-7136-4192-bc2a-a5b3ce179520",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69d22531-4fe9-42f1-bfbc-88ae1c18b805",
+      "comment": "",
+      "command": "click",
+      "target": "css=.moon",
+      "targets": [
+        ["css=.moon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "76fadc8c-8e10-483b-b969-7c209c9a2b2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sun > path",
+      "targets": [
+        ["css=.sun > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "440b7a2c-1c93-4185-9215-460d8cf20c16",
+    "name": "Testing the “Дізнатися більше” button",
+    "commands": [{
+      "id": "5e4d9e16-09f3-4199-953d-d5007db778b1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a9811b5-1258-4f2d-9205-391a80d87e54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5722484a-6557-4217-8405-45f4231cf44e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Дізнайтеся більше",
+      "targets": [
+        ["linkText=Дізнайтеся більше", "linkText"],
+        ["css=.custom-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Дізнайтеся більше')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://healtht5.com/about-us/')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Дізнайтеся більше')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5adc2851-c98e-46d9-a5da-7a72db38bdfb",
+    "name": "Testing the main menu item “Політика конфіденційності\"",
+    "commands": [{
+      "id": "2e18930c-51ae-45cb-9e8f-b7fbec36518b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c6878d-bee5-4252-a075-233220fdf164",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "382cfc34-510e-45e4-840d-8d7a23bd5e5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Політика конфіденційності",
+      "targets": [
+        ["linkText=Політика конфіденційності", "linkText"],
+        ["css=#menu-item-79 > .navigation__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Політика конфіденційності')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-79']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://healtht5.com/privacy-policy/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Політика конфіденційності')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9dcb2e9b-44df-4ced-9282-cc4456b06b8f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://healtht5.com/"],
+  "plugins": []
+}
