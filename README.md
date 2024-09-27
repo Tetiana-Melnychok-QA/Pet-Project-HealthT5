@@ -59,7 +59,7 @@ To run the tests using Selenium IDE, follow these steps:
 
 ## Team Members
 - Melnychok Tetyana
-- - Filipieva Maryna
+-  Filipieva Maryna
 - Zhadan Anton
 
 ## Test Report Summary
